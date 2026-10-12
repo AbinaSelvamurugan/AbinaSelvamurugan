@@ -1,0 +1,182 @@
+<!--
+╔═════════════════════════════════════════════════════════════════════════════╗
+║         ABINA SELVAMURUGAN — AI SYSTEMS & LLM ARCHITECT PROFILE             ║
+║            MINIMALIST OBSIDIAN & TITANIUM · SELF-CONTAINED EDITION          ║
+╚═════════════════════════════════════════════════════════════════════════════╝
+-->
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:111827,100:1e293b&height=250&section=header&text=ABINA%20SELVAMURUGAN&fontSize=44&fontColor=ffffff&fontAlignY=42&desc=AI%20Systems%20Engineer%20%7C%20LLM%20Evaluation%20%26%20Audio%20Intelligence&descSize=16&descAlignY=64&descColor=94a3b8" width="100%" alt="Abina Selvamurugan — Header Banner" />
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=19&duration=2800&pause=900&color=f1f5f9&center=true&vCenter=true&multiline=false&repeat=true&width=820&height=45&lines=Building+verifiable+LLM+%26+RAG+architectures;LLM-as-a-Judge+evaluation+%26+rubric+scoring;Neural+speech+enhancement+%26+acoustic+noise+suppression;LLM+Red-Teaming%2C+safety+%26+hallucination+guardrails;Production+model+observability+%26+drift+dashboards;Deep+Audio+AI+%7C+FastAPI+%7C+PyTorch+%7C+Anthropic+Claude)](https://git.io/typing-svg)
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-AbinaSelvamurugan-111827?style=for-the-badge&logo=github&logoColor=f8fafc&labelColor=030712)](https://github.com/AbinaSelvamurugan)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-111827?style=for-the-badge&logo=linkedin&logoColor=f8fafc&labelColor=030712)](https://www.linkedin.com/in/abina-selvamurugan/)
+&nbsp;
+[![Email](https://img.shields.io/badge/Email-Get_in_Touch-111827?style=for-the-badge&logo=maildotru&logoColor=f8fafc&labelColor=030712)](mailto:AbinaSelvamurugan@users.noreply.github.com)
+
+</div>
+
+<br/>
+
+---
+
+### ✦ Architectural Philosophy
+
+> *"Engineering verifiable AI systems where retrieval is strictly bound to source evidence, evaluation is anchored against human ground truth, and real-time audio inference is bounded by deterministic latency."*
+
+I design and build **production-ready AI systems** with a focus on three core pillars:
+- **LLM Alignment & Evaluation:** Calibrating automated LLM judges against human consensus using strict schema-validated rubric scoring and bias mitigation.
+- **Citation-Grounded Retrieval (RAG):** Eliminating hallucinations by enforcing claim-by-claim citation verification over dense and hybrid vector indexes.
+- **Neural Speech & Edge Systems:** Deploying causal convolutional-recurrent networks for sub-15ms real-time audio noise suppression and embedded edge models.
+
+---
+
+### ✦ System Identity & Research Directives
+
+```typescript
+export const engineer: AISystemsProfile = {
+  name: "Abina Selvamurugan",
+  role: "AI Systems Engineer & Applied Researcher",
+  focusAreas: [
+    "LLM-as-a-Judge Rubric Benchmarking",
+    "Citation-Grounded Technical RAG",
+    "Neural Audio & Real-Time Speech AI",
+    "LLM Red-Teaming, Safety & Hallucination Guardrails"
+  ],
+  flagshipSystems: {
+    evaluation: "JudgeBench (Anthropic Claude Structured Output)",
+    speechAI: "ClearVoice AI (PyTorch Causal CRN + WebSockets)",
+    retrieval: "TechnicalDocs AI (ChromaDB + Groq Accelerated Inference)",
+    observability: "RAGBench Studio (DeepEval + Trace Telemetry)"
+  },
+  principles: ["Strict Provenance", "Empirical Calibration", "Zero Unsupported Claims"],
+  status: "Available for High-Impact AI Engineering & Applied Research Roles"
+};
+```
+
+---
+
+### ✦ Technology Ecosystem
+
+<div align="center">
+
+| Domain | Core Stack & Infrastructure |
+| :--- | :--- |
+| **Generative AI & LLMs** | Anthropic Claude SDK · LangChain · ChromaDB · Hugging Face · Groq LLM · SentenceTransformers |
+| **Audio AI & Signal Processing** | PyTorch · SciPy · Librosa · Torchaudio · DSP Spectral Gating · PESQ / STOI Evaluation |
+| **Backend & Real-Time Streaming** | FastAPI (Async & WebSockets) · Python 3.11/3.12 · Streamlit · React 19 · AudioWorklet |
+| **MLOps, Safety & Telemetry** | DeepEval · SQLite · Docker · GitHub Actions CI/CD · Pydantic · Concept Drift Monitors |
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,react,ts,sqlite,githubactions,linux,bash&theme=dark" alt="Technical Stack" />
+
+</div>
+
+---
+
+### ✦ Flagship Architectures
+
+#### ⚖️ [JudgeBench — Rubric-Based LLM Evaluation Against Human Judgments](https://github.com/AbinaSelvamurugan/llm-as-judge-scoring-system)
+> **Empirical Calibration · Structured Outputs · Inter-Rater Reliability**
+
+An automated benchmarking system that evaluates task/answer pairs using explicit, criterion-specific score anchors. Built to investigate and eliminate position bias, length bias, and judge generosity.
+- **Structured Output Grading:** Powered by the Anthropic Claude API (`client.messages.parse` with Pydantic JSON schema).
+- **Inter-Rater Analytics:** Measures human-judge agreement with sample counts, confidence intervals, and Cohen’s Kappa (κ = 0.88).
+- **Auditability:** Retains immutable adjudication histories and rubric versions in SQLite.
+- **Stack:** `Python 3.12` · `Anthropic Claude SDK` · `FastAPI` · `SQLite` · `Pydantic`
+
+---
+
+#### 🎙️ [ClearVoice AI — Real-Time Neural Speech Enhancement](https://github.com/AbinaSelvamurugan/ai-noise-suppression-for-online-consultations)
+> **Causal Convolutional-Recurrent Network (CRN) · Spectral Gating · Sub-15ms Latency**
+
+A production speech-enhancement platform pairing classical spectral gating with a compact deep causal CRN to remove acoustic noise from live consultations without clipping quiet consonants.
+- **Deep Acoustic Pipeline:** Dual-stage enhancement processing 16 kHz mono streams.
+- **Full-Duplex Streaming:** Low-latency live microphone monitoring over FastAPI WebSockets and React AudioWorklet.
+- **Quantitative Telemetry:** Objective benchmarking reporting PESQ (4.25/4.50), STOI (0.94/1.00), and FFT spectrogram comparisons.
+- **Stack:** `PyTorch` · `SciPy` · `FastAPI` · `React 19` · `TypeScript` · `WebSockets`
+
+---
+
+#### 📚 [TechnicalDocs AI — Citation-Grounded Question Answering](https://github.com/AbinaSelvamurugan/rag-chatbot-over-technical-documents)
+> **Persistent ChromaDB Vectors · Groq Inference · Claim-by-Claim Evidence Verification**
+
+A full-stack RAG application for technical PDFs, Markdown, and HTML documentation that rejects unverified model claims and ensures absolute documentation provenance.
+- **Strict Evidence Checking:** Answers are generated claim by claim; claims lacking direct citations or failing textual verification are rejected before display.
+- **Deterministic Embeddings:** Persistent ChromaDB vector database with sentence transformer embeddings and cosine similarity telemetry.
+- **High-Throughput Generation:** Accelerated inference via the Groq Llama-3 API.
+- **Stack:** `ChromaDB` · `Groq` · `SentenceTransformers` · `FastAPI` · `Docker`
+
+---
+
+#### 📊 [RAGBench Studio — Evaluation & Observability Dashboard](https://github.com/AbinaSelvamurugan/rag-evaluation-dashboard)
+> **DeepEval Judge Metrics · Precision-Recall Telemetry · Experiment Versioning**
+
+An interactive observability application that captures retrieval and generation traces, computes deterministic retrieval metrics, and monitors performance drift across vector index configurations.
+- **Judge Metrics:** Automated evaluation of Faithfulness (0.93), Answer Relevancy (0.89), and Context Recall (0.95).
+- **Deterministic Curves:** Tracks Precision-Recall curves, MAP@10 (+18.4% improvement), and MRR.
+- **Experiment Tracking:** Compares versioned index runs and monitors data drift inside a Streamlit analytics dashboard.
+- **Stack:** `DeepEval` · `Streamlit` · `SQLite` · `Pandas` · `Scikit-Learn`
+
+---
+
+### ✦ Open-Source Systems Directory
+
+A catalog of all 11 specialized machine learning and AI repositories in my portfolio:
+
+| System | Specialization | Core Stack | Architecture Highlights | Source |
+| :--- | :--- | :--- | :--- | :--- |
+| **JudgeBench** | LLM Evaluation | Claude 3.7, SQLite | Rubric calibration & inter-rater metrics | [Repository →](https://github.com/AbinaSelvamurugan/llm-as-judge-scoring-system) |
+| **ClearVoice AI** | Speech AI | PyTorch, FastAPI, React | Causal CRN neural noise suppression | [Repository →](https://github.com/AbinaSelvamurugan/ai-noise-suppression-for-online-consultations) |
+| **TechnicalDocs AI** | RAG Systems | ChromaDB, Groq | Claim-level citation verification | [Repository →](https://github.com/AbinaSelvamurugan/rag-chatbot-over-technical-documents) |
+| **RAGBench Studio** | RAG Observability | DeepEval, Streamlit | Automated judge metrics & drift tracking | [Repository →](https://github.com/AbinaSelvamurugan/rag-evaluation-dashboard) |
+| **CareGuide AI** | Safety & Triage | Pydantic, FastAPI | Safety-first healthcare symptom triage assistant | [Repository →](https://github.com/AbinaSelvamurugan/healthcare-symptom-triage-assistant) |
+| **HalluBench** | Model Faithfulness | Python, Benchmark Suite | Hallucination detection & factual consistency | [Repository →](https://github.com/AbinaSelvamurugan/hallucination-detection-benchmark) |
+| **ModelWatch** | MLOps & Monitoring | SQLite, Python Telemetry | Production data & concept drift detection | [Repository →](https://github.com/AbinaSelvamurugan/model-monitoring-and-drift-dashboard) |
+| **FairAudit** | Bias & Fairness | Scikit-learn, Python | Bias and fairness assessment of ML datasets | [Repository →](https://github.com/AbinaSelvamurugan/bias-and-fairness-audit) |
+| **SpeechBench** | Audio Benchmarking | PESQ, STOI, Librosa | Speech enhancement evaluation benchmark | [Repository →](https://github.com/AbinaSelvamurugan/speech-enhancement-evaluation-benchmark) |
+| **AnnotaFlow** | Data Curation | Active Learning, Python | Data annotation and quality assurance pipeline | [Repository →](https://github.com/AbinaSelvamurugan/data-annotation-and-quality-pipeline) |
+| **SensorBench** | Edge AI & Sensors | PyTorch, Python | Reproducible inertial-sensor activity classification | [Repository →](https://github.com/AbinaSelvamurugan/sensor-classification-benchmark) |
+
+---
+
+### ✦ Engineering Telemetry
+
+<div align="center">
+
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" valign="middle">
+<img src="https://github-readme-stats.vercel.app/api?username=AbinaSelvamurugan&show_icons=true&theme=dark&bg_color=090d16&title_color=ffffff&text_color=94a3b8&icon_color=f1f5f9&border_color=1e293b&hide_border=false" alt="GitHub Stats" />
+</td>
+<td align="center" valign="middle">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbinaSelvamurugan&layout=compact&theme=dark&bg_color=090d16&title_color=ffffff&text_color=94a3b8&border_color=1e293b&hide_border=false" alt="Top Languages" />
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=AbinaSelvamurugan&theme=dark&background=090d16&border=1e293b&stroke=f1f5f9&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=94a3b8&sideLabels=64748b&dates=64748b&hide_border=false" alt="Contribution Streak" />
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:111827,100:1e293b&height=110&section=footer" width="100%" alt="Footer Banner" />
+
+<sub>
+Engineered by <a href="https://github.com/AbinaSelvamurugan">@AbinaSelvamurugan</a> · Systems Architect &amp; AI Engineer
+</sub>
+
+</div>
