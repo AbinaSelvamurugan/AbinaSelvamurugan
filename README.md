@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:111827,100:1e293b&height=250&section=header&text=ABINA%20SELVAMURUGAN&fontSize=44&fontColor=ffffff&fontAlignY=42&desc=AI%20Systems%20Engineer%20%7C%20LLM%20Evaluation%20%26%20Audio%20Intelligence&descSize=16&descAlignY=64&descColor=94a3b8" width="100%" alt="Abina Selvamurugan — Header Banner" />
+<img src="https://raw.githubusercontent.com/AbinaSelvamurugan/AbinaSelvamurugan/main/header.svg" width="100%" alt="Abina Selvamurugan — AI Systems Engineer" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=19&duration=2800&pause=900&color=f1f5f9&center=true&vCenter=true&multiline=false&repeat=true&width=820&height=45&lines=Building+verifiable+LLM+%26+RAG+architectures;LLM-as-a-Judge+evaluation+%26+rubric+scoring;Neural+speech+enhancement+%26+acoustic+noise+suppression;LLM+Red-Teaming%2C+safety+%26+hallucination+guardrails;Production+model+observability+%26+drift+dashboards;Deep+Audio+AI+%7C+FastAPI+%7C+PyTorch+%7C+Anthropic+Claude)](https://git.io/typing-svg)
 
@@ -67,14 +67,19 @@ export const engineer: AISystemsProfile = {
 
 | Domain | Core Stack & Infrastructure |
 | :--- | :--- |
-| **Generative AI & LLMs** | Anthropic Claude SDK · LangChain · ChromaDB · Hugging Face · Groq LLM · SentenceTransformers |
-| **Audio AI & Signal Processing** | PyTorch · SciPy · Librosa · Torchaudio · DSP Spectral Gating · PESQ / STOI Evaluation |
-| **Backend & Real-Time Streaming** | FastAPI (Async & WebSockets) · Python 3.11/3.12 · Streamlit · React 19 · AudioWorklet |
-| **MLOps, Safety & Telemetry** | DeepEval · SQLite · Docker · GitHub Actions CI/CD · Pydantic · Concept Drift Monitors |
+| **AI, LLMs & Deep Learning** | PyTorch · TensorFlow · Hugging Face · Anthropic Claude · LangChain · Scikit-Learn · OpenCV · ChromaDB · DeepEval |
+| **Audio & Real-Time Signal Processing** | Torchaudio · Librosa · SciPy · DSP Spectral Gating · WebSockets · PESQ / STOI Audio Telemetry |
+| **Backend, APIs & Cloud Systems** | FastAPI · Flask · Django · Docker · Kubernetes · AWS · GCP · Linux · Bash · SQLite · PostgreSQL · Redis · MongoDB |
+| **Languages, Frontend & DevOps** | Python · TypeScript · JavaScript · C++ · React · Next.js · Tailwind CSS · Git · GitHub Actions · Postman · VS Code |
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,docker,react,ts,sqlite,githubactions,linux,bash&theme=dark" alt="Technical Stack" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,scikitlearn,opencv,fastapi,flask,django,postgres,redis,mongodb,sqlite,docker,kubernetes&theme=dark" alt="AI & Infrastructure Stack" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,gcp,git,github,githubactions,linux,bash,ts,js,cpp,react,nextjs,tailwind,postman&theme=dark" alt="Cloud, Languages & Tooling" />
+</p>
 
 </div>
 
@@ -173,7 +178,7 @@ A catalog of all 11 specialized machine learning and AI repositories in my portf
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:111827,100:1e293b&height=110&section=footer" width="100%" alt="Footer Banner" />
+<img src="https://raw.githubusercontent.com/AbinaSelvamurugan/AbinaSelvamurugan/main/footer.svg" width="100%" alt="Footer Banner" />
 
 <sub>
 Engineered by <a href="https://github.com/AbinaSelvamurugan">@AbinaSelvamurugan</a> · Systems Architect &amp; AI Engineer
