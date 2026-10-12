@@ -15,9 +15,9 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-AbinaSelvamurugan-111827?style=for-the-badge&logo=github&logoColor=f8fafc&labelColor=030712)](https://github.com/AbinaSelvamurugan)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-111827?style=for-the-badge&logo=linkedin&logoColor=f8fafc&labelColor=030712)](https://www.linkedin.com/in/abina-selvamurugan/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-abina--selvamurugan-111827?style=for-the-badge&logo=linkedin&logoColor=f8fafc&labelColor=030712)](https://www.linkedin.com/in/abina-selvamurugan/)
 &nbsp;
-[![Email](https://img.shields.io/badge/Email-Get_in_Touch-111827?style=for-the-badge&logo=maildotru&logoColor=f8fafc&labelColor=030712)](mailto:AbinaSelvamurugan@users.noreply.github.com)
+[![Email](https://img.shields.io/badge/Email-abinaselvamurugan%40gmail.com-111827?style=for-the-badge&logo=gmail&logoColor=f8fafc&labelColor=030712)](mailto:abinaselvamurugan@gmail.com)
 
 </div>
 
