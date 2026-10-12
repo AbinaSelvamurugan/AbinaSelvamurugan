@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="obsidianBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="45%" stop-color="#0d131f"/>
+      <stop offset="100%" stop-color="#141d2e"/>
+    </linearGradient>
+
+    <!-- Metallic Horizon Glow -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.08"/>
+      <stop offset="60%" stop-color="#1e293b" stop-opacity="0.03"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Accent Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="30%" stop-color="#475569"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="70%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25"/>
+    </pattern>
+
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; }
+      
+      @keyframes pulseSlow {
+        0%, 100% { opacity: 0.8; }
+        50% { opacity: 0.3; }
+      }
+      .live-dot { animation: pulseSlow 3s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Container Box with Rounded Edges -->
+  <rect width="1200" height="300" rx="16" fill="url(#obsidianBg)"/>
+  
+  <!-- Architectural Matrix Grid Overlay -->
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+
+  <!-- Radial Depth Glow in Center -->
+  <ellipse cx="600" cy="150" rx="500" ry="140" fill="url(#centerGlow)"/>
+
+  <!-- Sleek Titanium Outer Border -->
+  <rect x="1" y="1" width="1198" height="298" rx="15" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Top System Bar -->
+  <g transform="translate(0, 0)">
+    <line x1="30" y1="46" x2="1170" y2="46" stroke="#1e293b" stroke-width="1"/>
+    
+    <!-- Window Control Dots -->
+    <circle cx="50" cy="28" r="4.5" fill="#334155"/>
+    <circle cx="66" cy="28" r="4.5" fill="#475569"/>
+    <circle cx="82" cy="28" r="4.5" fill="#64748b"/>
+
+    <!-- Terminal Breadcrumb -->
+    <text x="106" y="32" class="mono" font-size="11" fill="#64748b" letter-spacing="1">
+      abina@systems-core: ~/ai-architect
+    </text>
+
+    <!-- Operational Telemetry Status -->
+    <g transform="translate(980, 24)">
+      <circle cx="0" cy="5" r="4" fill="#10b981" class="live-dot"/>
+      <text x="12" y="8" class="mono" font-size="10.5" fill="#94a3b8" letter-spacing="1.5" font-weight="600">
+        SYSTEM: PRODUCTION READY
+      </text>
+    </g>
+  </g>
+
+  <!-- Main Center Typography -->
+  <g text-anchor="middle">
+    <!-- Domain Tagline -->
+    <text x="600" y="105" class="mono" font-size="11.5" font-weight="600" fill="#64748b" letter-spacing="4">
+      ✦ APPLIED LLM SYSTEMS &amp; REAL-TIME AUDIO AI ARCHITECTURE ✦
+    </text>
+
+    <!-- Primary Identity Title -->
+    <text x="600" y="162" class="sans" font-size="46" font-weight="800" fill="#ffffff" letter-spacing="4">
+      ABINA SELVAMURUGAN
+    </text>
+
+    <!-- Engineering Subtitle -->
+    <text x="600" y="200" class="sans" font-size="16" font-weight="500" fill="#94a3b8" letter-spacing="1.2">
+      AI Systems Engineer  ·  LLM-as-a-Judge Rubric Benchmarking  ·  Real-Time Speech AI
+    </text>
+  </g>
+
+  <!-- Bottom Architecture Focus Badges -->
+  <g transform="translate(180, 235)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="34" rx="7" fill="#0d1424" stroke="#1e293b" stroke-width="1.2"/>
+      <text x="90" y="21" class="mono" font-size="11" font-weight="600" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.5">
+        ⚖️ LLM Evaluation
+      </text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(220, 0)">
+      <rect width="180" height="34" rx="7" fill="#0d1424" stroke="#1e293b" stroke-width="1.2"/>
+      <text x="90" y="21" class="mono" font-size="11" font-weight="600" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.5">
+        📚 Citation RAG
+      </text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(440, 0)">
+      <rect width="180" height="34" rx="7" fill="#0d1424" stroke="#1e293b" stroke-width="1.2"/>
+      <text x="90" y="21" class="mono" font-size="11" font-weight="600" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.5">
+        🎙️ Neural Speech AI
+      </text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(660, 0)">
+      <rect width="180" height="34" rx="7" fill="#0d1424" stroke="#1e293b" stroke-width="1.2"/>
+      <text x="90" y="21" class="mono" font-size="11" font-weight="600" fill="#cbd5e1" text-anchor="middle" letter-spacing="0.5">
+        🛡️ Safety Guardrails
+      </text>
+    </g>
+  </g>
+
+  <!-- Subtle Bottom Titanium Horizon Light Line -->
+  <line x1="200" y1="298" x2="1000" y2="298" stroke="url(#borderGrad)" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
