@@ -32,7 +32,7 @@
 I design and build **production-ready AI systems** with a focus on three core pillars:
 - **LLM Alignment & Evaluation:** Calibrating automated LLM judges against human consensus using strict schema-validated rubric scoring and bias mitigation.
 - **Citation-Grounded Retrieval (RAG):** Eliminating hallucinations by enforcing claim-by-claim citation verification over dense and hybrid vector indexes.
-- **Neural Speech & Edge Systems:** Deploying causal convolutional-recurrent networks for sub-15ms real-time audio noise suppression and embedded edge models.
+- **Neural Speech & Edge Systems:** Building causal convolutional-recurrent networks for real-time audio noise suppression and embedded edge models.
 
 ---
 
@@ -92,19 +92,19 @@ export const engineer: AISystemsProfile = {
 
 An automated benchmarking system that evaluates task/answer pairs using explicit, criterion-specific score anchors. Built to investigate and eliminate position bias, length bias, and judge generosity.
 - **Structured Output Grading:** Powered by the Anthropic Claude API (`client.messages.parse` with Pydantic JSON schema).
-- **Inter-Rater Analytics:** Measures human-judge agreement with sample counts, confidence intervals, and Cohen’s Kappa (κ = 0.88).
+- **Inter-Rater Analytics:** Measures human-judge agreement with sample counts, confidence intervals and Cohen's kappa, reporting `null` rather than a fabricated value when no independent human annotations exist.
 - **Auditability:** Retains immutable adjudication histories and rubric versions in SQLite.
 - **Stack:** `Python 3.12` · `Anthropic Claude SDK` · `FastAPI` · `SQLite` · `Pydantic`
 
 ---
 
 #### 🎙️ [ClearVoice AI — Real-Time Neural Speech Enhancement](https://github.com/AbinaSelvamurugan/ai-noise-suppression-for-online-consultations)
-> **Causal Convolutional-Recurrent Network (CRN) · Spectral Gating · Sub-15ms Latency**
+> **Causal Convolutional-Recurrent Network (CRN) · Spectral Gating · Streaming Over WebSockets**
 
-A production speech-enhancement platform pairing classical spectral gating with a compact deep causal CRN to remove acoustic noise from live consultations without clipping quiet consonants.
+A speech-enhancement platform pairing classical spectral gating with a trainable compact deep causal CRN to reduce acoustic noise in live consultations without clipping quiet consonants.
 - **Deep Acoustic Pipeline:** Dual-stage enhancement processing 16 kHz mono streams.
-- **Full-Duplex Streaming:** Low-latency live microphone monitoring over FastAPI WebSockets and React AudioWorklet.
-- **Quantitative Telemetry:** Objective benchmarking reporting PESQ (4.25/4.50), STOI (0.94/1.00), and FFT spectrogram comparisons.
+- **Full-Duplex Streaming:** Live microphone monitoring over FastAPI WebSockets and React AudioWorklet.
+- **Objective Evaluation:** Reports SI-SDR improvement, STOI, log-spectral distance, processing latency and real-time factor, with FFT spectrogram comparisons. PESQ is left `null` because no licensed evaluator is redistributed.
 - **Stack:** `PyTorch` · `SciPy` · `FastAPI` · `React 19` · `TypeScript` · `WebSockets`
 
 ---
@@ -124,8 +124,8 @@ A full-stack RAG application for technical PDFs, Markdown, and HTML documentatio
 > **DeepEval Judge Metrics · Precision-Recall Telemetry · Experiment Versioning**
 
 An interactive observability application that captures retrieval and generation traces, computes deterministic retrieval metrics, and monitors performance drift across vector index configurations.
-- **Judge Metrics:** Automated evaluation of Faithfulness (0.93), Answer Relevancy (0.89), and Context Recall (0.95).
-- **Deterministic Curves:** Tracks Precision-Recall curves, MAP@10 (+18.4% improvement), and MRR.
+- **Judge Metrics:** DeepEval Faithfulness, Answer Relevancy and Contextual Precision/Recall, reported with valid counts rather than zero-filled placeholders.
+- **Deterministic Curves:** Precision-recall curves and MRR computed from annotated retrieval ground truth.
 - **Experiment Tracking:** Compares versioned index runs and monitors data drift inside a Streamlit analytics dashboard.
 - **Stack:** `DeepEval` · `Streamlit` · `SQLite` · `Pandas` · `Scikit-Learn`
 
@@ -137,17 +137,17 @@ A catalog of all 11 specialized machine learning and AI repositories in my portf
 
 | System | Specialization | Core Stack | Architecture Highlights | Source |
 | :--- | :--- | :--- | :--- | :--- |
-| **JudgeBench** | LLM Evaluation | Claude 3.7, SQLite | Rubric calibration & inter-rater metrics | [Repository →](https://github.com/AbinaSelvamurugan/llm-as-judge-scoring-system) |
+| **JudgeBench** | LLM Evaluation | Claude Sonnet 4.6, SQLite | Rubric calibration & inter-rater metrics | [Repository →](https://github.com/AbinaSelvamurugan/llm-as-judge-scoring-system) |
 | **ClearVoice AI** | Speech AI | PyTorch, FastAPI, React | Causal CRN neural noise suppression | [Repository →](https://github.com/AbinaSelvamurugan/ai-noise-suppression-for-online-consultations) |
 | **TechnicalDocs AI** | RAG Systems | ChromaDB, Groq | Claim-level citation verification | [Repository →](https://github.com/AbinaSelvamurugan/rag-chatbot-over-technical-documents) |
 | **RAGBench Studio** | RAG Observability | DeepEval, Streamlit | Automated judge metrics & drift tracking | [Repository →](https://github.com/AbinaSelvamurugan/rag-evaluation-dashboard) |
 | **CareGuide AI** | Safety & Triage | Pydantic, FastAPI | Safety-first healthcare symptom triage assistant | [Repository →](https://github.com/AbinaSelvamurugan/healthcare-symptom-triage-assistant) |
-| **HalluBench** | Model Faithfulness | Python, Benchmark Suite | Hallucination detection & factual consistency | [Repository →](https://github.com/AbinaSelvamurugan/hallucination-detection-benchmark) |
+| **HalluBench** | Model Faithfulness | Python, Benchmark Suite | Hallucination detection & factual consistency — HaluEval QA, 20,000 examples; best detector F1 0.592 | [Repository →](https://github.com/AbinaSelvamurugan/hallucination-detection-benchmark) |
 | **ModelWatch** | MLOps & Monitoring | SQLite, Python Telemetry | Production data & concept drift detection | [Repository →](https://github.com/AbinaSelvamurugan/model-monitoring-and-drift-dashboard) |
-| **FairAudit** | Bias & Fairness | Scikit-learn, Python | Bias and fairness assessment of ML datasets | [Repository →](https://github.com/AbinaSelvamurugan/bias-and-fairness-audit) |
-| **SpeechBench** | Audio Benchmarking | PESQ, STOI, Librosa | Speech enhancement evaluation benchmark | [Repository →](https://github.com/AbinaSelvamurugan/speech-enhancement-evaluation-benchmark) |
+| **FairAudit** | Bias & Fairness | Scikit-learn, Python | Bias and fairness assessment of ML datasets — RAND HIE audit: ROC-AUC 0.667, demographic-parity difference 0.351 | [Repository →](https://github.com/AbinaSelvamurugan/bias-and-fairness-audit) |
+| **SpeechBench** | Audio Benchmarking | PESQ, STOI, Librosa | Speech enhancement benchmark — 200 real LibriSpeech × DEMAND mixtures; PESQ 1.79 → 2.28, SNR +7.72 dB | [Repository →](https://github.com/AbinaSelvamurugan/speech-enhancement-evaluation-benchmark) |
 | **AnnotaFlow** | Data Curation | Active Learning, Python | Data annotation and quality assurance pipeline | [Repository →](https://github.com/AbinaSelvamurugan/data-annotation-and-quality-pipeline) |
-| **SensorBench** | Edge AI & Sensors | PyTorch, Python | Reproducible inertial-sensor activity classification | [Repository →](https://github.com/AbinaSelvamurugan/sensor-classification-benchmark) |
+| **SensorBench** | Edge AI & Sensors | PyTorch, Python | Reproducible inertial-sensor activity classification — UCI HAR held-out macro-F1 0.954 across 9 unseen subjects | [Repository →](https://github.com/AbinaSelvamurugan/sensor-classification-benchmark) |
 
 ---
 
